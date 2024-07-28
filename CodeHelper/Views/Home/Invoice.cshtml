@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewBag.Title = "Invoice";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+
+<style>
+    .mt {
+        margin-top: 45px !important;
+        padding-top: 45px !important;
+    }
+</style>
+@if (Model != null)
+{
+    foreach (System.Data.DataRow row in Model.Rows)
+    {
+
+        <div class="page-content mt">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xl-9 col-md-8">
+                        <div class="settings-widget profile-details">
+                            <div class="settings-menu invoice-list-blk p-0 ">
+                                <div class="card pro-post border-0 mb-0">
+                                    <div class="card-body">
+                                        <div class="invoice-item">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="invoice-logo">
+                                                        <img src="~/Content/assets/img/logo.svg" alt="logo">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4"></div>
+                                                <div class="col-md-2">
+                                                    <p class="invoice-details">
+                                                        <strong>Issued:</strong><br /><span id="currentDateTime">@DateTime.Now</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="invoice-item">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="invoice-info">
+                                                        <strong class="customer-text">Techpile Technology Pvt. Ltd.</strong>
+                                                        <p class="invoice-details invoice-details-two">
+                                                            Plot No-43, Behind H.P Petrol Pump, <br>
+                                                            Tedi Puliya Ring Rd,Sector 5 Vikas Nagar,<br>
+                                                            Lucknow Uttar Pradesh 222602<br>
+
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="invoice-info invoice-info2">
+                                                        <strong class="customer-text">Student Info</strong>
+                                                        <p class="invoice-details">
+                                                            @row["sname"] <br>
+                                                            @row["semail"]<br />
+                                                            @row["college"] <br>
+                                                            @row["title"] @row["year"]   <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div class="invoice-item invoice-table-wrap">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                                        <table class="invoice-table table table-bordered">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Course ID</th>
+                                                                    <th>Course Name</th>
+                                                                    <th class="text-center">Detail</th>
+                                                                    <th class="text-end">Final fee</th>
+                                                                    <th>Expiry Date</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>@row["csr"]</td>
+                                                                    <td>@row["title"]</td>
+                                                                    <td class="text-center">@Html.Raw(row["details"])</td>
+                                                                    @* <td class="text-end">&#8377;@Model["ffee"]</td>*@
+                                                                    <td class="text-end">
+                                                                        @{ int fee = 0;}
+                                                                        @if (row["discountamt"] != DBNull.Value)
+                                                                        {
+                                                                            fee = Convert.ToInt32(row["discountamt"]);
+                                                                            <del>&#8377;@row["ffee"]</del><br />
+                                                                            <span>Your Special Fee is :<br />&#8377; @row["discountamt"]</span>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            fee = Convert.ToInt32(row["ffee"]);
+                                                                            <span> &#8377;@row["ffee"]</span>
+
+                                                                        }
+                                                                        <div id="div_fee" style="display:none;">@fee</div>
+                                                                    </td>
+                                                                    <td>
+                                                                        @{ DateTime edate;}
+                                                                        @if (row["discountdate"] != DBNull.Value)
+                                                                        {
+                                                                            <del>@row["duration"]</del><br />
+                                                                            <span>Your Special Date is :<br />@row["discountdate"]</span>
+                                                                            edate = Convert.ToDateTime(row["discountdate"]);
+
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <span>@row["duration"]</span>
+                                                                            edate = Convert.ToDateTime(row["duration"]);
+                                                                        }
+                                                                        <div id="div_fee" style="display:none;">@edate</div>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-xl-4 ms-auto">
+                                                    <button id="btn_enroll" data-id="@fee" data-user="@User.Identity.Name" data-date="@edate.ToString("yyyy-MM-dd")" class="signin-head">
+                                                        ENROLL NOW
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btn_enroll").click(function () {
+           
+            var fee = ($(this).attr("data-id"));
+            var email = ($(this).attr("data-user"))
+            var edate = ($(this).attr("data-date"))
+            var courseid = (@Request.QueryString["csr"])
+            
+            if (fee != "" && email != "" && edate != "" && courseid != "") {
+                $.ajax({
+                    url: '/home/EnrollStudent',
+                    type: 'POST',
+                    data: { 'fee': fee, 'email': email, 'edate': edate, 'courseid': courseid },
+                    success: function (res) {
+                        alert(res)
+                    },
+                    error: function () {
+                        alert('Error in ajax')
+                    }
+                })
+            }
+            else {
+                alert("Error in data")
+            }
+            
+        })
+    })
+
+</script>
+
+

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "otpVeryfication";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+<div class="row">
+    <div class="col-sm-7 mx-auto mt-5 pt-5">
+        <h2 class="mt-5">Veryfy Your Email...</h2>
+        <form method="post">
+            <div class="row">
+                <div class="col-sm-6 mx-auto mt-1">
+            <div id="af">
+                <span style="color:red;">@ViewBag.message</span>
+                <div class="form-group">
+                    <label class="add-course-label">Otp</label>
+                    <input type="text" class="form-control" placeholder="otp" name="otp" id="otp" />
+
+                </div>
+            </div>
+            <input type="submit" value="veryfy" id="btn" class="btn btn-info mt-1 text-light">
+
+</div>
+                </div>
+
+        </form>
+    </div>
+</div>
+

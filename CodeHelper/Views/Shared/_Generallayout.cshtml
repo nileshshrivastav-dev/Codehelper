@@ -1,0 +1,239 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from dreamslms.dreamguystech.com/html/index-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Oct 2023 12:21:07 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Dreams LMS</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/assets/img/favicon.svg">
+
+    <link rel="stylesheet" href="~/Content/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/Content/~/Content/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Content/assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/feather/feather.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/select2/css/select2.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/swiper/css/swiper.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/aos/aos.css">
+
+    <link rel="stylesheet" href="~/Content/assets/css/style.css">
+    <style>
+    .footer {
+    min-height: 300px;
+    background: rgba(0,0,0,.8);
+    }
+
+    .a1 {
+    color: white;
+    line-height: 30px;
+    }
+
+    .a1 ul li a {
+    text-decoration: none;
+    }
+
+    .a1:hover {
+    color: #ff6600;
+    }
+    </style>
+</head>
+<body class="home-two">
+
+    <div class="main-wrapper">
+
+        <header class="header header-two">
+            <div class="header-fixed">
+                <nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a id="mobile_btn" href="javascript:void(0);">
+                                <span class="bar-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </a>
+                            <a href="index-2.html" class="navbar-brand logo">
+                                <img src="~/Content/assets/img/logo.svg" class="img-fluid" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="main-menu-wrapper">
+                            <div class="menu-header">
+                                <a href="index-2.html" class="menu-logo">
+                                    <img src="~/Content/assets/img/logo.svg" class="img-fluid" alt="Logo">
+                                </a>
+                                <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                            <ul class="main-nav">
+                                <li class="has-submenu menu-effect active">
+                                    <a href="/home/index">Home </a>
+
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="/home/Categarywisecourse" style="text-decoration:none;">Explore cources </a>
+
+                                </li>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li class="has-submenu menu-effect">
+                                        <a href="" style="text-decoration:none;">Settings <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="submenu">
+                                            <li><a href="/home/profile">Profile</a></li>
+                                            <li><a href="/home/PasswordChange">Change Password</a></li>
+                                            <li><a href="/home/Logout">Logout</a></li>
+
+                                        </ul>
+                                    </li>
+                                }
+                                </ul>
+                        </div>
+                        <ul class="nav header-navbar-rht">
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a class="login-head button" href="/home/studentLogin">Login</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="signin-head" href="/home/StudentRegistration">Sign up</a>
+                            </li>
+                            }
+                            else
+                            {
+                            <li class="nav-item">
+                                <a class="login-head button" href="/home/mycourse">My Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="signin-head" href="/home/Logout">Logout</a>
+                            </li>
+                            }
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div>
+            @RenderBody()
+        </div>
+      
+        <footer class="footer footer-two aos" data-aos="fade-up">
+
+            <div class="row footer">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-2">
+
+                        </div>
+                        <div class="col-sm-8"></div>
+                        <div class="col-sm-2 fs-3 p-2">
+                            <i class="fa-brands fa-facebook fs-2" style="color:#0d6efd;"></i>
+                            <i class="fa-brands fa-whatsapp fs-2" style="color:#25d366;"></i>
+                            <i class="fa-brands fa-twitter fs-2" style="color:#0237e7;"></i>
+                            <i class="fa-brands fa-linkedin fs-2" style="color:#41a5ee;"></i>
+                            <i class="fa-brands fa-instagram fs-2" style="color:#e85930;"></i>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <span class="text-light">Links</span>
+                                        <hr / style="color:red;height:3px;  width:300px;">
+                                        <p>
+
+                                        </p>
+                                        <a class="a1" href="/home/index" style="text-decoration:none; color:#c0c0c0;">Home</a><br />
+                                        <a class="a1" href="/default/AdminLogin" style="text-decoration:none; color:#c0c0c0;">Admin Login</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Contact</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Pricing</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Placement</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Contact Us</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Our Team</a><br />
+
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <span class="text-light">Other Services</span>
+                                        <hr / style="color:red;height:3px;  width:300px;">
+                                        <p>
+
+                                        </p>
+                                        <a href="/home/StudentRegistration" style="text-decoration:none; color:#c0c0c0;">Online Registration</a><br />
+                                        <a class="a1" href="/home/Categarywisecourse" style="text-decoration:none; color:#c0c0c0;">Our Cources</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Feedback</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Academics</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Privacy and Policy</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Our Recruiters</a><br />
+
+
+                                    </div>
+                                    <div class="col-sm-4 mb-5">
+                                        <span class="text-light">Contact Address</span>
+                                        <p>
+                                            <hr / style="color:red;height:3px;  width:300px;">
+
+
+                                        </p>
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;">Plot No-43,Behind H.P Petrol Pumb<br />Tedhi Pulia Ring Rd,Sector,Sector 5,<br />Vikash Nager,Lucknow,<br />Utter Pradesh 226022</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;"><i class="fa-solid fa-phone" style="color: #b91384;"></i> +91-7007237006</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;"><i class="fa-solid fa-phone" style="color: #b91384;"></i> +91-9140444301</a><br />
+                                        <a class="a1" style="text-decoration:none; color:#c0c0c0;"><i class="fa-solid fa-envelope" style="color: #c20f93;"></i> techpilelko@gmail.com</a><br />
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        
+        </footer>
+
+    </div>
+
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="~/Content/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/Content/assets/js/owl.carousel.min.js"></script>
+
+    <script src="~/Content/assets/plugins/aos/aos.js"></script>
+
+    <script src="~/Content/assets/js/jquery.waypoints.js"></script>
+    <script src="~/Content/assets/js/jquery.counterup.min.js"></script>
+
+    <script src="~/Content/assets/plugins/select2/js/select2.min.js"></script>
+
+    <script src="~/Content/assets/plugins/slick/slick.js"></script>
+
+    <script src="~/Content/assets/plugins/swiper/js/swiper.min.js"></script>
+
+    <script src="~/Content/assets/js/script.js"></script>
+</body>
+
+<!-- Mirrored from dreamslms.dreamguystech.com/html/index-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Oct 2023 12:21:27 GMT -->
+</html>
+
+
+

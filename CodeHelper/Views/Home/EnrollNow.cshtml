@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "EnrollNow";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12 mt-5">
+        <div class="row">
+            <div class="col-sm-6 mt-5 mx-auto">
+                <h2>Enroll Now</h2>
+                <form method="post">
+                    <h6 class="mt-3">Course</h6>
+                    <select class="form-control" name="course">
+                        <option value="@Model["course"]">@Model["title"]</option>
+                    </select>
+                    <h6 class="mt-3">Email</h6>
+                    <input type="email" class="form-control" name="email" value="@Model["email"]" readonly>
+                    <h6 class="mt-3">Final Fee</h6>
+                    <input type="number" class="form-control" name="finalfee" value="@Model["discountamt"]" readonly>
+                    <h6 class="mt-3">Expiry Date</h6>
+                    <input type="date" readonly class="form-control" name="expiry_date" value="@Convert.ToDateTime(Convert.ToDateTime(Model["discountdate"])).ToString("yyyy-MM-dd")">
+                    <input type="submit" value="Enroll Now" id="btn" class="btn btn-info mt-3 mb-3 text-light">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

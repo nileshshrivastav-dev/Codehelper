@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "Categarywisecourse";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+<style>
+    
+</style>
+<section class="course-content">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-3 theiaStickySidebar">
+                <div class="filter-clear">
+                </div>
+
+
+
+
+                <div class="card post-widget ">
+                    <div class="card-body">
+                        <div class="latest-head">
+                            <h4 class="card-title">Course Category</h4>
+                        </div>
+                        <ul class="latest-posts">
+                            @if(Model!=null)
+                            {
+                                if (Model.Tables[0].Rows.Count>0)
+                                {
+                                    foreach(var cat in Model.Tables[0].Rows)
+                                    {
+
+                            <li>
+                                <div class="post-thumb">
+                                    <a href="/home/Categarywisecourse?id=@cat["id"]">
+                                        <img class="img-fluid" src="~/Content/picture/@cat["cpic"]" alt="">
+                                    </a>
+                                </div>
+                                <div class="post-info free-color">
+                                    <h4>
+                                        <a href="/home/Categarywisecourse?id=@cat["id"]">@cat["cname"]</a>
+                                    </h4>
+                                   
+                                </div>
+                            </li>
+                                    }
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-9">
+
+
+
+                <div class="row">
+                    @if (Model != null)
+                    {
+                        if (Model.Tables[1].Rows.Count > 0)
+                        {
+                            foreach (var cat in Model.Tables[1].Rows)
+                            {
+                                <div class="col-lg-4 col-md-6 d-flex">
+                                    <div class="course-box course-design d-flex ">
+                                        <div class="product">
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img class="img-fluid" alt="" src="~/Content/picture/@cat["thumb"]">
+                                                </a>
+                                                <div class="price">
+                                                    <h3>&#8377;@cat["fee"] <span>&#8377;@cat["ffee"]</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="course-group d-flex">
+                                                    <div class="course-group-img d-flex">
+                                                        <a href="#"><img src="~/Content/picture/@cat["ipic"]" alt="" class="img-fluid"></a>
+                                                        <div class="course-name">
+                                                            <h4><a href="">@cat["name"]</a></h4>
+                                                            <p>Instructor</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="course-share d-flex align-items-center justify-content-center">
+                                                        <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                </div>
+                                                <h3 class="title"><a href="/home/CourseDetails?csr=@cat["course"]">@Html.Raw(cat["details"])</a></h3>
+                                                <div class="course-info d-flex align-items-center">
+                                                    <div class="rating-img d-flex align-items-center">
+                                                        <img src="assets/img/icon/icon-01.svg" alt="">
+                                                        <p>@cat["TotalLecture"] Videos</p>
+                                                    </div>
+                                                    <div class="course-view d-flex align-items-center">
+                                                        <img src="assets/img/icon/icon-02.svg" alt="">
+                                                        <p>
+                                                            @if (Convert.ToInt32(@cat["totalduration"]) > 60)
+                                                            {
+                                                                var v = Convert.ToInt32(@cat["totalduration"]) / 60;
+                                                                var x = Convert.ToInt32(@cat["totalduration"]) % 60;
+                                                                <text>@v</text><text> hour @x</text><text> minute</text>
+
+                                                            }
+                                                            else
+                                                            {
+                                                                @cat["totalduration"] <text>minute</text>
+                                                            }
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                            </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="pagination lms-page">
+                            <li class="page-item prev">
+                                <a class="page-link" href="javascript:void(0)" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                            </li>
+                            <li class="page-item first-page active">
+                                <a class="page-link" href="javascript:void(0)">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript:void(0)">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript:void(0)">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript:void(0)">4</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript:void(0)">5</a>
+                            </li>
+                            <li class="page-item next">
+                                <a class="page-link" href="javascript:void(0)"><i class="fas fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    
+</section>
+
+

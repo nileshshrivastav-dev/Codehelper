@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "UpdateCourse";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<style>
+    .mt {
+        margin-top: 30px !important;
+        padding-top: 30px !important;
+    }
+</style>
+
+<div class="row mt">
+    <div class="col-sm-8 mx-auto mt">
+        <h2 class="text-center">Add Course</h2>
+
+        @foreach (var fm in Model.Tables[2].Rows)
+        {
+            <form method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="number" class="csr" name="csr" value="@fm["csr"]" hidden>
+                        <div class="form-group">
+                            <label class="add-course-label">Course Title</label>
+                            <input type="text" class="form-control" placeholder="Enter Course Title" name="title" value="@fm["title"]"/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="add-course-label">Course Thumbnail</label>
+                            <input type="file" class="form-control" name="thumb"/>
+                            <img src="~/Content/picture/@fm["thumb"]" height="50px">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="add-course-label">Select Category</label>
+                            <select class="form-control" name="category" id="category">
+                                <option>--Select Category--</option>
+
+                                @foreach (var row in Model.Tables[0].Rows)
+                                {
+                                    if (Convert.ToInt32(row[0]) == Convert.ToInt32(fm["category"]))
+                                    {
+                                        <option value="@row[0]" selected>@row[1]</option>
+
+                                    }
+                                    else
+                                    {
+                                    <option value="@row[0]">@row[1]</option>
+                                    }
+                                }
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="add-course-label">Select Instructor</label>
+                            <select class="form-control" name="Instructor" id="Instructor">
+                                <option>--Select Instructor--</option>
+
+                                @foreach (var row in Model.Tables[1].Rows)
+                                {
+                                    if (Convert.ToInt32(row[0]) == Convert.ToInt32(fm["instructor"]))
+                                    {
+                                        <option value="@row[0]" selected>@row[1]</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@row[0]">@row[1]</option>
+                                    }
+                                }
+
+
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="add-course-label">Course Fee</label>
+                            <input type="number" placeholder="Enter Fee" name="fee" id="fee" class="form-control" value="@fm["fee"]">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="add-course-label">Final Fee</label>
+                            <input type="number" placeholder="Enter final Fee" name="ffee" id="ffee" class="form-control" value="@fm["ffee"]">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="add-course-label">Course Details</label>
+                    <textarea class="form-control" id="desc" name="details" placeholder="Enter Discription">@fm["details"]</textarea>
+                    <script>
+                        ClassicEditor.create(document.getElementById("desc"));
+                    </script>
+                </div>
+                <div class="form-group">
+                    <label class="add-course-label">Course Duration</label>
+                    <input type="date" name="duration" id="duration" class="form-control" value="@Convert.ToDateTime(Convert.ToDateTime(fm["duration"])).ToString("yyyy-MM-dd")">
+
+                </div>
+                <div class="widget-btn ms-0 ps-0">
+                    <input type="submit" value="Update" class="btn btn-info-light" />
+
+                </div>
+            </form>
+        }
+        </div>
+</div>
+
+
+
+

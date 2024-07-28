@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "profile";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+<style>
+    .im {
+        position: relative;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .name:hover {
+        color: darkorange;
+        transition: all .5s;
+    }
+</style>
+<div class="row">
+    <div class="col-sm-10 mx-auto mt-5 pt-5 bg-light">
+
+        <div class="row">
+            <div class="col-sm-6 mx-auto">
+                <img src="~/Content/picture/@Model["profile"]" class="im" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-8">
+                <div class="user-text">
+                    <h2 class="name">@Model["sname"]</h2>
+                    <p class="text-muted">Student<sup style="color:orange;">@Model["year"]</sup></p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-10 mx-auto">
+<div class="row mt-3">
+    <div class="col-sm-4 bg-light"></div>
+    <div class="col-sm-8 bg-light">
+
+        <b>Email :</b> <span>@Model["semail"]</span><br />
+        <b>Gender :</b> <span>@Model["gender"]</span><br />
+        <b>Mobile :</b> <span>@Model["mobile"]</span><br />
+        <b>College :</b> <span>@Model["college"]</span><br />
+        <b>Course :</b> <span>@Model["title"]</span><br/>
+      <a href="/home/Editprofile"> <input type="button" value="Edit" class="btn btn-info text-light mt-4" /></a>
+    </div>
+</div>
+</div>
+
+    </div>

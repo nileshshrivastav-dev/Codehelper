@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|c:\\users\\dell\\source\\repos\\codehelper\\codehelper\\views\\admin\\videolecturemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\videolecturemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\updatecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\updatecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\models\\dblayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\models\\dblayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\updatecotegary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\updatecotegary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\studentmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\studentmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\mycourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\mycourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\onecoursechapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\onecoursechapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\categarywisecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\categarywisecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\enrollnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\enrollnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\shared\\_generallayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\shared\\_generallayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\addvideos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\addvideos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\studentregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\studentregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\offermng.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\offermng.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\defaultpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\defaultpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\admin\\feebackmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\admin\\feebackmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\models\\videomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\models\\videomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\models\\feedbackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\passwordchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\passwordchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|C:\\Users\\Dell\\source\\repos\\CodeHelper\\codehelper\\views\\home\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEAF408B-B280-4A2A-B755-C39049915DB6}|CodeHelper\\CodeHelper.csproj|solutionrelative:codehelper\\views\\home\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBLayer.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\DBLayer.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Models\\DBLayer.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\DBLayer.cs",
+              "RelativeToolTip": "CodeHelper\\Models\\DBLayer.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAMwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:18:50.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\UpdateCourse.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\UpdateCourse.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\UpdateCourse.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\UpdateCourse.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T12:30:52.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Models\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\CourseModel.cs",
+              "RelativeToolTip": "CodeHelper\\Models\\CourseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:51:36.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoLectureManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\VideoLectureManagement.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\VideoLectureManagement.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\VideoLectureManagement.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\VideoLectureManagement.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T02:14:28.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CodeHelper\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHMBAAAAAAAAAAAAAIIBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T03:50:07.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Web.config",
+              "RelativeDocumentMoniker": "CodeHelper\\Web.config",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Web.config",
+              "RelativeToolTip": "CodeHelper\\Web.config",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-19T03:35:19.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CodeHelper\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAH4BAAAAAAAAAAAAAH4BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:41:54.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\MyCourse.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\MyCourse.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\MyCourse.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\MyCourse.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAmwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T17:44:05.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\CourseDetails.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\CourseDetails.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\CourseDetails.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\CourseDetails.cshtml",
+              "ViewState": "AQIAAHQBAAAAAAAAAAAAAHcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T21:35:57.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "addCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\addCourse.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\addCourse.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\addCourse.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\addCourse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T10:58:55.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\CourseManagement.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\CourseManagement.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\CourseManagement.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\CourseManagement.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwD4AAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T11:24:00.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateCotegary.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\UpdateCotegary.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\UpdateCotegary.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\UpdateCotegary.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\UpdateCotegary.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCYAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T13:07:47.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\StudentManagement.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\StudentManagement.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\StudentManagement.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\StudentManagement.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T22:23:59.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAmwFQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T11:41:02.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "onecoursechapter.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\onecoursechapter.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\onecoursechapter.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\onecoursechapter.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\onecoursechapter.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAwEAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T22:05:19.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Invoice.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\Invoice.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAiwKsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T04:22:03.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "CodeHelper\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T09:09:39.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\StudentModel.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Models\\StudentModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\StudentModel.cs",
+              "RelativeToolTip": "CodeHelper\\Models\\StudentModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwBgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:17:35.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentRegistration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\StudentRegistration.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\StudentRegistration.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\StudentRegistration.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\StudentRegistration.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T14:21:45.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnrollNow.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\EnrollNow.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\EnrollNow.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\EnrollNow.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\EnrollNow.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T05:38:46.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Categarywisecourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Categarywisecourse.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\Categarywisecourse.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Categarywisecourse.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\Categarywisecourse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-13T03:50:48.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Generallayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\_Generallayout.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Shared\\_Generallayout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\_Generallayout.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Shared\\_Generallayout.cshtml",
+              "ViewState": "AQIAANoAAAAAAAAAAAAmwO8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T11:40:57.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T10:58:57.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAFUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T02:25:58.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddVideos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\AddVideos.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\AddVideos.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\AddVideos.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\AddVideos.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEgAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T05:01:57.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "offermng.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\offermng.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\offermng.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\offermng.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\offermng.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwDgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T05:44:17.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VideoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\VideoModel.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Models\\VideoModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\VideoModel.cs",
+              "RelativeToolTip": "CodeHelper\\Models\\VideoModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T05:24:02.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T03:50:33.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "defaultpage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\defaultpage.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\defaultpage.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\defaultpage.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\defaultpage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T04:04:00.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "feebackManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\feebackManagement.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Admin\\feebackManagement.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Admin\\feebackManagement.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Admin\\feebackManagement.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:33:31.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T10:34:54.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "feedbackModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\feedbackModel.cs",
+              "RelativeDocumentMoniker": "CodeHelper\\Models\\feedbackModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Models\\feedbackModel.cs",
+              "RelativeToolTip": "CodeHelper\\Models\\feedbackModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:32:27.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PasswordChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\PasswordChange.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\PasswordChange.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\PasswordChange.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\PasswordChange.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T16:38:05.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\profile.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\profile.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\profile.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\profile.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswDAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T11:56:02.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Editprofile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Editprofile.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\Editprofile.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\Editprofile.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\Editprofile.cshtml",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAwwJ4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T14:21:27.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "CodeHelper\\Views\\Home\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\CodeHelper\\CodeHelper\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeToolTip": "CodeHelper\\Views\\Home\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T16:38:55.358Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

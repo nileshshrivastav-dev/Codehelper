@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "studentLogin";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-8 mx-auto mt-5 pt-5">
+        <h2 class="mt-5">Student Login...</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-5 mx-auto mt-1">
+            <form method="post">
+                <div class="form-group">
+                    <label class="add-course-label">User Id</label>
+                    <input type="email" class="form-control" placeholder="User Id" name="userid" />
+                </div>
+                <div class="form-group">
+                    <label class="add-course-label">Password</label>
+                    <input type="password" class="form-control" placeholder="password" name="password" />
+                </div>
+                <div class="widget-btn ms-0 ps-0">
+                    <input type="submit" value="Login" class="btn btn-info-light" />
+                    <span class="me-0 pe-0">Not a Member ? <a href="/home/StudentRegistration" style="color:blue;">Register</a><br/>
+                    <a href="/home/Emailveryfication" style="color:blue;" class="ms-3">Forgot Password</a>
+                    </span>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "StudentRegistration";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+
+<div class="Row mt-5">
+    <div class="col-sm-8 mx-auto mt-5 pt-5">
+        <h2 class="mt-5">Register Here..</h2>
+        <form method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Name" name="sname" />
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Email ID</label>
+                        <input type="email" class="form-control" placeholder="Enter Email ID" name="semail" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Gender</label><br />
+                        <input type="radio" name="gender" value="Male" class="mt-2" /> Male
+                        <input type="radio" name="gender" value="Female" class="mt-2 ms-5" /> Female
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Enter Mobile</label>
+                        <input type="number" class="form-control" placeholder="Enter Mobile Number" name="mobile" />
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">College</label>
+                        <select class="form-control" name="college">
+                            <option>--Select College--</option>
+                            <option>Government Polytechnic jaunpur</option>
+                            <option>Gavernment Polytechnic Aurai</option>
+                            <option>Saltnat Bahadur PG College</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Course</label>
+                        <select class="form-control" name="course">
+                            <option>--Select Course--</option>
+                            @foreach (System.Data.DataRow row in Model.Rows)
+                            {
+                                <option value="@row["csr"]">@row["title"]</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Year</label>
+                        <select class="form-control" name="year">
+                            <option>--Select Option--</option>
+                            <option>First Year</option>
+                            <option>Second Year</option>
+                            <option>Third Year</option>
+                            <option>Fourth Year</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Profile Picture</label>
+                        <input type="file" class="form-control" name="profile" />
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Create a password" name="password" />
+                    </div>
+                </div>
+            </div>
+            <div class="widget-btn ms-0 ps-0">
+                <input type="submit" value="Register" class="btn btn-info-light" />
+                <span class="me-0 pe-0">Already a Member ? <a href="/home/studentlogin" style="color:blue;">Login</a></span>
+
+            </div>
+        </form>
+    </div>
+</div>
+ 

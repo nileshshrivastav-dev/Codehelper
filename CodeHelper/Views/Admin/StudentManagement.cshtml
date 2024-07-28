@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "StudentManagement";
+    Layout = "~/Views/Shared/_Generallayout.cshtml";
+}
+
+
+@{
+    ViewBag.Title = "VideoLectureManagement";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .mt {
+        margin-top: 45px !important;
+        padding-top: 45px !important;
+    }
+</style>
+
+<div class="header-two-title text-center mt" data-aos="fade-up">
+    <p class="tagline">All Registered Student</p>
+    <h2>Manage all Students</h2>
+</div>
+
+<div class="col-xl-12 col-lg-11 col-md-12 mx-auto">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="settings-widget">
+                <div class="settings-inner-blk p-0">
+
+                    <div class="comman-space pb-0">
+                        <div class="settings-tickets-blk course-instruct-blk table-responsive">
+
+                            <table class="table table-nowrap mb-0 table-bordered text-center" id="myTable1">
+                                <thead>
+                                    <tr>
+                                        <th>SR</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Gender</th>
+                                        <th>Mobile</th>
+                                        <th>College</th>
+                                        <th>Year</th>
+                                        <th>Profile</th>
+                                        <th>Course</th>
+                                        <th>ACTION</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        if (Model.Rows.Count > 0)
+                                        {
+                                            int i = 1;
+                                            foreach (System.Data.DataRow row in Model.Rows)
+                                            {
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@row["sname"]</td>
+                                                    <td>@row["semail"]</td>
+                                                    <td>@row["gender"]</td>
+                                                    <td>@row["mobile"]</td>
+                                                    <td>@row["college"]</td>
+                                                    <td>@row["year"]</td>
+                                                    <td><img src="~/Content/picture/@row["profile"]" height="50px"/></td>
+                                                    <td>@row["title"]</td>
+                                                    <td>
+                                                        <a href="/admin/StudentManagement?r=@row["semail"]" onclick="return confirm('Do you want to delete')"><button class="btn btn-danger fa fa-trash" title="Delete"></button></a>
+                                                        <a href="/admin/StudentManagement?sr=@row["semail"]" onclick="return confirm('Do you want to Update data')"><button class="btn btn-success fa fa-pencil" title="Update"></button></a>
+                                                    </td>
+                                                </tr>
+                                                { i = i + 1; }
+                                            }
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>
+
+
+
+

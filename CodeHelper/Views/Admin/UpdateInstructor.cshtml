@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "UpdateInstructor";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .mt {
+        margin-top: 30px !important;
+        padding-top: 30px !important;
+    }
+</style>
+
+<div class="row mt">
+    <div class="col-sm-8 mx-auto mt">
+        <h2>Update Instructor</h2>
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="form-group" hidden>
+                <label class="add-course-label">Sr</label>
+                <input type="number" class="form-control" value="@Model["sr"]" name="sr" />
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Name" value="@Model["name"]" name="name" />
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Email Id</label>
+                        <input type="email" class="form-control" placeholder="Enter email" value="@Model["email"]" name="email" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Mobile No</label>
+                        <input type="number" class="form-control" placeholder="Enter Mobile number" value="@Model["mobile"]" name="mobile" />
+                    </div>
+                    </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Gender</label><br />
+                        @if (Model["gender"] == "Male")
+                        {
+                            <input type="radio" name="gender" value="Male" class="mt-1" checked />
+                        }
+                        else
+                        {
+                            <input type="radio" name="gender" value="Male" class="mt-1" />
+                        }
+                        Male
+                        @if (Model["gender"] == "Female")
+                        {
+                            <input type="radio" name="gender" value="Female" class="ms-4 mt-1" checked/>
+                        }
+                        else
+                        {
+                            <input type="radio" name="gender" value="Female" class="ms-4 mt-1" />
+                        }
+                        Female
+                    </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Profile picture</label>
+                        <input type="file" class="form-control" name="ipic" />
+                    </div>
+                    </div>
+                <div class="col-sm-6">
+                    <img src="~/Content/picture/@Model["ipic"]" height="70px">
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">Profile Summary</label>
+                        <textarea name="summary" class="form-control">@Model["summary"]</textarea>
+                    </div>
+                   </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="add-course-label">About Me</label>
+                        <textarea name="about" class="form-control">@Model["about"]</textarea>
+                    </div>
+                    </div>
+                </div>
+            <div class="form-group">
+                <label class="add-course-label">Highest qualification</label><br />
+                @if (Model["Btech"].Equals("Btech"))
+                {
+                    <input type="checkbox" name="Btech" value="Btech" checked />
+                }
+                else
+                {
+                    <input type="checkbox" name="Btech" value="Btech" />
+                }
+                Btech
+                @if (Model["Mtech"].Equals("Mtech"))
+                {
+                    <input type="checkbox" name="Mtech" value="Mtech" checked />
+                }
+                else
+                {
+                    <input type="checkbox" name="Mtech" value="Mtech" />
+                }
+                Mtech
+                @if (Model["BCA"].Equals("BCA"))
+                {
+                    <input type="checkbox" name="BCA" value="BCA" checked />
+                }
+                else
+                {
+                    <input type="checkbox" name="BCA" value="BCA" />
+                }
+                BCA
+                @if (Model["MCA"].Equals("MCA"))
+                {
+                    <input type="checkbox" name="MCA" value="MCA" checked />
+                }
+                else
+                {
+                    <input type="checkbox" name="MCA" value="MCA" />
+                }
+                MCA
+                @if (Model["Phd"].Equals("Phd"))
+                {
+                    <input type="checkbox" name="Phd" value="Phd" checked/>
+                }
+                else
+                {
+                    <input type="checkbox" name="Phd" value="Phd" />
+                }
+                Phd
+            </div>
+                    <input type="submit" value="UPDATE" class="btn btn-info">
+        </form>
+    </div>
+</div>
+
+
+

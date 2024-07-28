@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "feebackManagement";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .mt {
+        margin-top: 45px !important;
+        padding-top: 45px !important;
+    }
+</style>
+
+<div class="header-two-title text-center mt" data-aos="fade-up">
+    <p class="tagline">News & Events</p>
+    <h2>Add  feedback</h2>
+</div>
+
+<div class="col-xl-12 col-lg-11 col-md-12 mx-auto">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="settings-widget">
+                <div class="settings-inner-blk p-0">
+                   
+                    <div class="comman-space pb-0">
+                        <div class="settings-tickets-blk course-instruct-blk table-responsive">
+
+                            <table class="table table-nowrap mb-0 table-bordered text-center" id="myTable">
+                                <thead>
+                                    <tr>
+                                        <th>SR</th>
+                                        <th>Course_id</th>
+                                        <th>fullname</th>
+                                        <th>Email</th>
+                                        <th>subject</th>
+                                        <th>Comment</th>
+                                        <th>status</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        if (Model.Rows.Count > 0)
+                                        {
+                                            int i = 1;
+                                            foreach (System.Data.DataRow row in Model.Rows)
+                                            {
+                                                <tr>
+                                                    <td>@i</td>
+                                                    <td>@row["Course_id"]</td>
+                                                    <td>@row["fullname"]</td>
+                                                    <td>@row["Email"]</td>
+                                                    <td>@row["subject"]</td>
+                                                    <td>@row["Comment"]</td>
+                                                    
+
+
+                                                    <td>Delete||Edit</td>
+                                                </tr>
+                                                { i = i + 1; }
+                                            }
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>

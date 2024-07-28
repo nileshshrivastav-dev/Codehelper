@@ -1,0 +1,181 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from dreamslms.dreamguystech.com/html/index-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Oct 2023 12:21:07 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Dreams LMS</title>
+    <link href="~/Content/datatables.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/assets/img/favicon.svg">
+
+    <link rel="stylesheet" href="~/Content/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/Content/~/Content/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Content/assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/feather/feather.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/select2/css/select2.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/swiper/css/swiper.min.css">
+
+    <link rel="stylesheet" href="~/Content/assets/plugins/aos/aos.css">
+
+    <link rel="stylesheet" href="~/Content/assets/css/style.css">
+    <script src="~/Content/ckeditor1.js"></script>
+</head>
+<body class="home-two">
+
+    <div class="main-wrapper">
+
+        <header class="header header-two">
+            <div class="header-fixed">
+                <nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a id="mobile_btn" href="javascript:void(0);">
+                                <span class="bar-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </a>
+                            <a href="index-2.html" class="navbar-brand logo">
+                                <img src="~/Content/assets/img/logo.svg" class="img-fluid" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="main-menu-wrapper">
+                            <div class="menu-header">
+                                <a href="index-2.html" class="menu-logo">
+                                    <img src="~/Content/assets/img/logo.svg" class="img-fluid" alt="Logo">
+                                </a>
+                                <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                            <ul class="main-nav">
+                                <li class="has-submenu menu-effect active">
+                                  <a href="/admin/dashboard">Dashboard</a>
+                                </li>
+                                <li class="has-submenu menu-effect">
+                                    <a href="">Add Details <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="/admin/AddcourseCotegari">Add Course Cotegary</a></li>
+                                        <li><a href="/admin/addCourse">Add Course</a></li>
+                                        <li><a href="/admin/AddInstructor">Add Instructor</a></li>
+                                        <li><a href="/admin/AddVideos">Add Video Lecture</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu menu-effect">
+                                    <a href="">Management <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu first-submenu">
+
+                                        <li><a href="/admin/CourseCotegarymanagement">Course Categary Management</a></li>
+                                        <li><a href="/admin/CourseManagement">Course Management</a></li>
+                                        <li><a href="/admin/VideoLectureManagement">Video Lecture Management</a></li>
+                                        <li><a href="/admin/InstructerprofileManagement">Instructer profile Management</a></li>
+                                        <li><a href="/admin/StudentManagement">Student Management</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu menu-effect">
+                                    <a href=""> Enrollment<i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="notifications.html">Check Enrollment</a></li>
+                                        <li><a href="/admin/offermng">Offer management</a></li>
+                                        <li><a href="pricing-plan.html">Check PAyment</a></li>
+
+                                        <li class="login-link">
+                                            <a href="login.html">Login / Signup</a>
+                                        </li>
+                                    </ul>
+                        </div>
+                        <ul class="nav header-navbar-rht">
+                            <li class="nav-item">
+                                <a class="login-head button" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="signin-head" href="register.html">Sign up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="login-head button" href="/admin/logout">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div>
+            @RenderBody()
+        </div>
+        
+        <footer class="footer footer-two aos" data-aos="fade-up">
+           
+
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="copyright-text">
+                                    <p class="mb-0">&copy; 2023 DreamsLMS. All rights reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="privacy-policy">
+                                    <ul>
+                                        <li><a href="term-condition.html">Terms & Condition</a></li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a href="support.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="~/Content/dataTables.min.js"></script>
+
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>
+    
+    <script src="~/Content/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/Content/assets/js/owl.carousel.min.js"></script>
+
+    <script src="~/Content/assets/plugins/aos/aos.js"></script>
+
+    <script src="~/Content/assets/js/jquery.waypoints.js"></script>
+    <script src="~/Content/assets/js/jquery.counterup.min.js"></script>
+
+    <script src="~/Content/assets/plugins/select2/js/select2.min.js"></script>
+
+    <script src="~/Content/assets/plugins/slick/slick.js"></script>
+
+    <script src="~/Content/assets/plugins/swiper/js/swiper.min.js"></script>
+
+    <script src="~/Content/assets/js/script.js"></script>
+</body>
+
+<!-- Mirrored from dreamslms.dreamguystech.com/html/index-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Oct 2023 12:21:27 GMT -->
+</html>
+<script>
+    new DataTable('#myTable');
+    new DataTable('#myTable1');
+</script>
+
+
